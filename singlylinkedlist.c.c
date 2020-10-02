@@ -121,6 +121,16 @@ while(p!=NULL)
 printf("\n");
 return;
 }
+
+int evenchecker(struct node *head){
+if(head->data%2==0)
+{
+return 1;
+}
+else 
+return 0;
+//this code will check if the node has even element or not
+}
 int main()
 {
     struct node*start=NULL;
